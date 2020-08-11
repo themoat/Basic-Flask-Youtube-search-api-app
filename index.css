@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+
+.into{
+    width: auto;
+    padding: 40px;
+    background-color: white;
+}
+
+.display-4{
+    color: white;
+}
+.lead{
+    color: white;
+}
+.hello{
+    color: white;
+}
+
+.form-control{
+    width: 50%;
+    margin-left: 320px;
+}
+
+.form-button{
+    position: absolute;
+    right: 240px;
+    top:330px;
+}

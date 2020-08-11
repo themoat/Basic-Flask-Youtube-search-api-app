@@ -1,0 +1,29 @@
+
+
+body {
+    background-color:brown;
+}
+
+.my-1{
+    display: flex;
+}
+
+
+.yt-2{
+    position: absolute;
+    top:450px;
+}
+
+.yt-3{
+    position: absolute;
+    top:450px;
+    left: 300px;
+}
+
+.yt-4{
+    position: absolute;
+    top:450px;
+    left: 600px;
+
+}
+
