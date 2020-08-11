@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/main.css">
+    <title>Youtube Result</title>
+</head>
+
+<body>
+    <section class='my-1'>
+        <div class="yt-0">
+            <div class="card" style="width: 18rem;">
+                <img src="{{r['items'][0]['snippet']['thumbnails']['medium']['url']}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Channel Name:{{r['items'][0]['snippet']['channelTitle']}}</h5>
+                    <p class="card-text">{{r['items'][1]['snippet']['title']}}</p>
+                    <a href="https://www.youtube.com/watch?v={{r['items'][0]['id']['videoId']}}"
+                        class="btn btn-primary">Press Me</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="yt-2">
+            <div class="card" style="width: 18rem;">
+                <img src="{{r['items'][1]['snippet']['thumbnails']['medium']['url']}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Channel Name:{{r['items'][2]['snippet']['channelTitle']}}</h5>
+                    <p class="card-text">{{r['items'][1]['snippet']['title']}}</p>
+                    <a href="https://www.youtube.com/watch?v={{r['items'][1]['id']['videoId']}}"
+                        class="btn btn-primary">Press Me</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="yt-3">
+            <div class="card" style="width: 18rem;">
+                <img src="{{r['items'][2]['snippet']['thumbnails']['medium']['url']}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Channel Name:{{r['items'][2]['snippet']['channelTitle']}}</h5>
+                    <p class="card-text">{{r['items'][2]['snippet']['title']}}</p>
+                    <a href="https://www.youtube.com/watch?v={{r['items'][2]['id']['videoId']}}"
+                        class="btn btn-primary">Press Me</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="yt-4">
+            <div class="card" style="width: 18rem;">
+                <img src="{{r['items'][3]['snippet']['thumbnails']['medium']['url']}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Channel Name:{{r['items'][3]['snippet']['channelTitle']}}</h5>
+                    <p class="card-text">{{r['items'][3]['snippet']['title']}}</p>
+                    <a href="https://www.youtube.com/watch?v={{r['items'][3]['id']['videoId']}}"
+                        class="btn btn-primary">Press Me</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="yt-5">
+            <div class="card" style="width: 18rem;">
+                <img src="{{r['items'][4]['snippet']['thumbnails']['medium']['url']}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Channel Name:{{r['items'][4]['snippet']['channelTitle']}}</h5>
+                    <p class="card-text">{{r['items'][4]['snippet']['title']}}</p>
+                    <a href="https://www.youtube.com/watch?v={{r['items'][4]['id']['videoId']}}"
+                        class="btn btn-primary">Press Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="yt-6">
+            <div class="card" style="width: 18rem;">
+                <img src="{{r['items'][5]['snippet']['thumbnails']['medium']['url']}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Channel Name:{{r['items'][5]['snippet']['channelTitle']}}</h5>
+                    <p class="card-text">{{r['items'][5]['snippet']['title']}}</p>
+                    <a href="https://www.youtube.com/watch?v={{r['items'][5]['id']['videoId']}}"
+                        class="btn btn-primary">Press Me</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="yt-7">
+            <div class="card" style="width: 18rem;">
+                <img src="{{r['items'][6]['snippet']['thumbnails']['medium']['url']}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Channel Name:{{r['items'][6]['snippet']['channelTitle']}}</h5>
+                    <p class="card-text">{{r['items'][6]['snippet']['title']}}</p>
+                    <a href="https://www.youtube.com/watch?v={{r['items'][6]['id']['videoId']}}"
+                        class="btn btn-primary">Press Me</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="yt-8">
+            <div class="card" style="width: 18rem;">
+                <img src="{{r['items'][7]['snippet']['thumbnails']['medium']['url']}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Channel Name:{{r['items'][7]['snippet']['channelTitle']}}</h5>
+                    <p class="card-text">{{r['items'][7]['snippet']['title']}}</p>
+                    <a href="https://www.youtube.com/watch?v={{r['items'][7]['id']['videoId']}}"
+                        class="btn btn-primary">Press Me</a>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
